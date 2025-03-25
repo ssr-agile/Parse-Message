@@ -1,0 +1,52 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parse_Message_API.Controllers.MessageController",
+    "Method": "ParseMessage",
+    "RelativePath": "api/Message/ParseMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Parse_Message_API.Controllers.MessageController\u002BMessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Parse_Message_API.Controllers.MessageController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Message/SendMessage/sendDely",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Parse_Message_API.Model.Message",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

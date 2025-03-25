@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Parse_Message_API.Controllers.MessageController",
+    "Method": "ParseMessage",
+    "RelativePath": "api/Message/ParseMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lniMbJ5iCrs5rYFy9D6esbKB5kXfS5Ap7P2ktzI2dYM=",
+  "Source": "Parse Message API",
+  "BasePath": "_content/Parse Message API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

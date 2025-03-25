@@ -1,0 +1,48 @@
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.csproj.AssemblyReference.cache
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.AssemblyInfoInputs.cache
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.AssemblyInfo.cs
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.csproj.CoreCompileInputs.cache
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\appsettings.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Parse Message API.staticwebassets.endpoints.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Parse Message API.exe
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Parse Message API.deps.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Parse Message API.runtimeconfig.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Parse Message API.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Parse Message API.pdb
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\scopedcss\bundle\Parse Message API.styles.css
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets\msbuild.Parse Message API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets\msbuild.Parse Message API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets\msbuild.build.Parse Message API.props
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Parse Message API.props
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Parse Message API.props
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Me.F86934FE.Up2Date
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\refint\Parse Message API.dll
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.pdb
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\Parse Message API.genruntimeconfig.cache
+C:\Users\Sriram.s\source\repos\Parse Message API\Parse Message API\obj\Debug\net8.0\ref\Parse Message API.dll
