@@ -138,3 +138,4 @@ C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\obj\Debug\net
 C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\obj\Debug\net9.0\Parse Message API.pdb
 C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\obj\Debug\net9.0\Parse Message API.genruntimeconfig.cache
 C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\obj\Debug\net9.0\ref\Parse Message API.dll
+C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\obj\Debug\net9.0\Parse Message API.sourcelink.json

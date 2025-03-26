@@ -64,7 +64,7 @@ namespace Parse_Message_API.Controllers
                 {
                     { "dateText", @"\b(today|tomorrow)\b|\b(on|this|next)\s(monday|tuesday|wednesday|thursday|friday|saturday|sunday|january|february|march|april|may|june|july|august|september|october|november|december)\s?(\d{1,2}(st|nd|rd|th)?)?" },
                     { "dateActual", @"\b\d{1,2}[-/]\d{1,2}[-/]\d{4}\b" },
-                    { "time", @"(\b\d{1,2}(:\d{2})?\s*(AM|PM)\b)|(\b([01]?\d|2[0-3]):[0-5]\d\b)|(\b\d{1,2}\s?o['’]clock\b)" },
+                    { "time", @"(\b\d{1,2}(:\d{2})?\s?(AM|PM)\b)|(\b([0-9]?|[01]?\d|2[0-3]):[0-5]\d\b)|(\b\d{1,2}(:\d{2})?\s?o['’]?clock\b)" },
                     { "title", @"`([^`]+)`" },
                     { "repeat", @"\b(repeat)\b" },
                     { "app", @"\b(Teams|Gmail|Email|WhatsApp|SMS|mail)\b" },
@@ -131,7 +131,7 @@ namespace Parse_Message_API.Controllers
                 };
 
                 // Store in cache for 10 minutes
-                await _cacheService.SetCacheAsync(cacheKey, System.Text.Json.JsonSerializer.Serialize(msg), TimeSpan.FromMinutes(10));
+                await _cacheService.SetCacheAsync(cacheKey, JsonSerializer.Serialize(msg), TimeSpan.FromMinutes(10));
 
                 return Ok(msg);
             }
@@ -177,54 +177,95 @@ namespace Parse_Message_API.Controllers
         }
 
         // CONVERT TO DATE
-        private static DateTime ConvertToDate(string textDate)
+        static DateTime ConvertToDate(string textDate)
         {
             DateTime today = DateTime.Today;
-            string[] months = CultureInfo.CurrentCulture.DateTimeFormat.MonthNames;
+            DayOfWeek todayDay = today.DayOfWeek;
+            string[] months = DateTimeFormatInfo.CurrentInfo.MonthNames;
             string[] words = textDate.Split(' ');
 
-            try
+            if (words.Length > 1 && (words[0] == "this" || words[0] == "next" || words[0] == "on"))
             {
-                if (textDate.Equals("today", StringComparison.OrdinalIgnoreCase))
-                    return today;
-                else if (textDate.Equals("tomorrow", StringComparison.OrdinalIgnoreCase))
-                    return today.AddDays(1);
+                string type = words[0]; // "this", "next", "on"
+                string secondWord = words[1];
 
-                if (words.Length > 1 && (words[0].Equals("this", StringComparison.OrdinalIgnoreCase) || words[0].Equals("next", StringComparison.OrdinalIgnoreCase) || words[0].Equals("on", StringComparison.OrdinalIgnoreCase)))
+                // Handle day-of-week cases
+                if (Regex.IsMatch(secondWord, "monday|tuesday|wednesday|thursday|friday|saturday|sunday", RegexOptions.IgnoreCase))
                 {
-                    if (Enum.TryParse(words[1], true, out DayOfWeek targetDay))
-                    {
-                        return GetNextDayOfWeek(today, targetDay, words[0].Equals("this", StringComparison.OrdinalIgnoreCase));
-                    }
+                    DayOfWeek targetDay = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), CultureInfo.CurrentCulture.TextInfo.ToTitleCase(secondWord));
 
-                    if (Array.Exists(months, month => month.Equals(words[1], StringComparison.OrdinalIgnoreCase)))
-                    {
-                        int year = today.Year;
-                        int month = Array.IndexOf(months, words[1]) + 1;
-                        int day = 1;
-
-                        if (words.Length == 3 && int.TryParse(Regex.Replace(words[2], "[^0-9]", ""), out int parsedDay))
-                            day = parsedDay;
-
-                        if (words[0].Equals("next", StringComparison.OrdinalIgnoreCase) || (month < today.Month && !words[0].Equals("this", StringComparison.OrdinalIgnoreCase)))
-                            year++;
-
-                        return new DateTime(year, month, Math.Min(day, DateTime.DaysInMonth(year, month)));
-                    }
-                    throw new ArgumentException("Invalid date format.");
+                    if (type == "this") return GetNextDayOfWeek(today, targetDay, includeToday: true);
+                    if (type == "next") return GetNextDayOfWeek(today, targetDay, includeToday: false);
+                    if (type == "on") return GetNextDayOfWeek(today, targetDay, includeToday: true);
                 }
-                throw new ArgumentException("Could not parse date.");
-            }
-            catch (Exception ex)
-            {
-                throw new FormatException($"Error parsing date: {ex.Message}");
-            }
-        }
 
+                // Handle month cases (with or without a day)
+                if (Array.Exists(months, month => month.Equals(secondWord, StringComparison.OrdinalIgnoreCase)))
+                {
+                    int month = DateTime.ParseExact(secondWord, "MMMM", CultureInfo.CurrentCulture).Month;
+                    int year = today.Year;
+                    int day = 1; // Default to the 1st of the month
+
+                    if (words.Length == 3)
+                    {
+                        string dayPart = words[2].Replace("st", "").Replace("nd", "").Replace("rd", "").Replace("th", "");
+                        if (int.TryParse(dayPart, out int parsedDay))
+                        {
+                            day = parsedDay;
+                        }
+                    }
+
+                    // Adjust year if needed
+                    if (type == "next" || (month < today.Month && type != "this"))
+                    {
+                        year++;
+                    }
+
+                    // Validate day (e.g., prevent "February 30")
+                    day = Math.Min(day, DateTime.DaysInMonth(year, month));
+
+                    return new DateTime(year, month, day);
+                }
+            }
+
+            return textDate switch
+            {
+                "today" => today,
+                "tomorrow" => today.AddDays(1),
+                "this week" => today.AddDays(-(int)todayDay), // Start of current week (Sunday)
+                "next week" => today.AddDays(7 - (int)todayDay), // Start of next week (Sunday)
+                "weekend" => today.AddDays(6 - (int)todayDay), // Next Saturday
+                "this month" => new DateTime(today.Year, today.Month, 1), // 1st of current month
+                "next month" => new DateTime(today.Year, today.Month, 1).AddMonths(1), // 1st of next month
+                "this year" => new DateTime(today.Year, 1, 1), // Start of current year
+                "next year" => new DateTime(today.Year + 1, 1, 1), // Start of next year
+                _ => today // Default fallback
+            };
+        }
         // CONVERT TO TIME
         private static string ConvertToTime24(string time)
         {
-            return DateTime.TryParseExact(time, new[] { "h tt", "h:mm tt", "HH:mm" }, CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dt)
+            // Normalize different formats
+            time = Regex.Replace(time, @"(\d)(AM|PM)", "$1 $2", RegexOptions.IgnoreCase); // Fix "3pm" → "3 pm"
+            time = Regex.Replace(time, @"o['’]?clock", "", RegexOptions.IgnoreCase).Trim(); // Remove "o'clock"
+
+            // If it's a single number (e.g., "3"), assume it's an hour and add ":00"
+            if (Regex.IsMatch(time, @"^\d{1,2}$"))
+            {
+                if (Regex.IsMatch(time, @"^\d{1}$"))
+                {
+                    time = "0" + time;
+                }
+                time += ":00";
+
+                Console.WriteLine(time);
+            }
+            Console.WriteLine(time+"hhhh");
+
+            // Try parsing in multiple common formats
+            return DateTime.TryParseExact(time,
+                new[] { "h tt", "h:mm tt", "HH:mm", "h", "h:mm" },
+                CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dt)
                 ? dt.ToString("HH:mm:ss")
                 : throw new FormatException("Invalid time format.");
         }
