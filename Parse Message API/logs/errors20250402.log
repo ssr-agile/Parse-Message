@@ -1,0 +1,17 @@
+2025-04-02 12:11:20.350 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-02 12:11:21.116 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-02 12:11:21.118 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-02 12:11:21.291 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-02 12:11:21.292 +05:30 [INF] Hosting environment: Development
+2025-04-02 12:11:21.293 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-02 12:11:22.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-02 12:11:23.367 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 453.0032ms
+2025-04-02 12:11:23.405 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-02 12:11:23.432 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-02 12:11:23.446 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 41.9423ms
+2025-04-02 12:11:23.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 160.4246ms
+2025-04-02 12:11:23.869 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-02 12:11:23.927 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.8436ms
+2025-04-02 12:11:39.186 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A - null null
+2025-04-02 12:11:39.206 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-02 12:11:39.298 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Parse Message API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcd945ba76aa348032e7a93c59efd9d254f89b54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b4263b5fce89382a3837e319605123b62879d02")]
 [assembly: System.Reflection.AssemblyProductAttribute("Parse Message API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Parse Message API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,6 +18,80 @@
     ]
   },
   {
+    "ContainingType": "Parse_Message_API.Controllers.DBController",
+    "Method": "CreateTable",
+    "RelativePath": "api/DB/create-table",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Parse_Message_API.Controllers.DBController",
+    "Method": "DeleteData",
+    "RelativePath": "api/DB/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sql",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Parse_Message_API.Controllers.DBController",
+    "Method": "FetchData",
+    "RelativePath": "api/DB/fetch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sql",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Parse_Message_API.Controllers.DBController",
+    "Method": "InsertData",
+    "RelativePath": "api/DB/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sql",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Parse_Message_API.Controllers.DBController",
+    "Method": "UpdateData",
+    "RelativePath": "api/DB/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sql",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Parse_Message_API.Controllers.MessageController",
     "Method": "ParseMessage",
     "RelativePath": "api/Message/ParseMessage",

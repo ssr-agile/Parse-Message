@@ -1,0 +1,1063 @@
+2025-04-03 10:38:00.569 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 10:38:01.588 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 10:38:01.597 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 10:38:02.138 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 10:38:02.148 +05:30 [INF] Hosting environment: Development
+2025-04-03 10:38:02.148 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 10:38:10.134 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 10:38:11.061 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 945.4564ms
+2025-04-03 10:38:11.170 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 10:38:11.192 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 21.7119ms
+2025-04-03 10:38:11.216 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 10:38:11.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 228.1504ms
+2025-04-03 10:38:12.227 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 10:38:12.256 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.9676ms
+2025-04-03 10:38:32.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%201 - null null
+2025-04-03 10:38:32.265 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 10:38:32.361 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 10:39:56.046 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 10:39:56.763 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 10:39:56.765 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 10:39:56.996 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 10:39:56.997 +05:30 [INF] Hosting environment: Development
+2025-04-03 10:39:56.997 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 10:40:00.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 10:40:00.991 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 491.3692ms
+2025-04-03 10:40:01.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 10:40:01.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 10:40:01.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 110.3838ms
+2025-04-03 10:40:01.271 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 241.6526ms
+2025-04-03 10:40:01.907 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 10:40:01.934 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.8488ms
+2025-04-03 10:40:03.708 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 10:40:03.709 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.2728ms
+2025-04-03 10:40:04.640 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 10:40:04.655 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.3011ms
+2025-04-03 10:41:41.814 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%201 - null null
+2025-04-03 10:41:41.830 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 10:41:41.902 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 10:47:35.547 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 10:47:36.907 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 10:47:36.911 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 10:47:37.129 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 10:47:37.130 +05:30 [INF] Hosting environment: Development
+2025-04-03 10:47:37.130 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 10:47:37.893 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 10:47:38.430 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 549.3338ms
+2025-04-03 10:47:38.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 10:47:38.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 10:47:38.497 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 19.3771ms
+2025-04-03 10:47:38.625 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 139.6691ms
+2025-04-03 10:47:39.003 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 10:47:39.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.8233ms
+2025-04-03 10:47:52.571 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%201 - null null
+2025-04-03 10:47:52.591 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 10:47:52.663 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 10:50:47.957 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 175277.2882ms
+2025-04-03 10:50:47.961 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 10:50:47.977 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+https://docs.oracle.com/error-help/db/ora-01017/
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.PoolManager`3.WaitForPendingGet()
+--- End of stack trace from previous location ---
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.GetAsync(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString opaquePassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternalAsync(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenAsyncHelper(CancellationToken cancellationToken)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenAsyncHelper(CancellationToken cancellationToken)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenAsync(CancellationToken cancellationToken)
+   at Parse_Message_API.Services.OracleDBService.FetchDataAsync(String sqlQuery) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Services\OracleDBService.cs:line 27
+   at Parse_Message_API.Controllers.DBController.FetchData(String sql) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Controllers\DBController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-03 10:50:48.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%201 - 500 null text/plain; charset=utf-8 175441.9097ms
+2025-04-03 10:51:22.217 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 10:51:22.791 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 10:51:22.793 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 10:51:22.985 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 10:51:22.986 +05:30 [INF] Hosting environment: Development
+2025-04-03 10:51:22.986 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 10:51:24.109 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 10:51:24.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 560.6252ms
+2025-04-03 10:51:24.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 10:51:24.706 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 10:51:24.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 30.8392ms
+2025-04-03 10:51:24.797 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.7034ms
+2025-04-03 10:51:25.199 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 10:51:25.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.6552ms
+2025-04-03 10:51:30.018 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%201 - null null
+2025-04-03 10:51:30.045 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 10:51:30.128 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 13:37:50.627 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 13:37:52.049 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 13:37:52.051 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 13:37:52.313 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 13:37:52.314 +05:30 [INF] Hosting environment: Development
+2025-04-03 13:37:52.314 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 13:37:53.310 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 13:37:53.850 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 548.8906ms
+2025-04-03 13:37:53.900 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 13:37:53.900 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 13:37:53.925 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 24.6893ms
+2025-04-03 13:37:54.214 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 313.8976ms
+2025-04-03 13:37:54.727 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 13:37:54.761 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.5106ms
+2025-04-03 13:38:05.132 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%201 - null null
+2025-04-03 13:38:05.150 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 13:38:05.209 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 13:39:38.953 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 13:39:39.742 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 13:39:39.744 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 13:39:39.928 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 13:39:39.929 +05:30 [INF] Hosting environment: Development
+2025-04-03 13:39:39.930 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 13:39:40.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 13:39:41.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 650.231ms
+2025-04-03 13:39:41.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 13:39:41.684 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 13:39:41.693 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 17.5736ms
+2025-04-03 13:39:41.891 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 206.4235ms
+2025-04-03 13:39:42.452 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 13:39:42.479 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.8155ms
+2025-04-03 13:39:45.104 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%201 - null null
+2025-04-03 13:39:45.125 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 13:39:45.196 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 13:41:32.227 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 13:41:32.851 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 13:41:32.854 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 13:41:33.218 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 13:41:33.218 +05:30 [INF] Hosting environment: Development
+2025-04-03 13:41:33.219 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 13:41:33.887 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 13:41:34.475 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 600.0207ms
+2025-04-03 13:41:34.519 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 13:41:34.519 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 13:41:34.783 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 264.0298ms
+2025-04-03 13:41:34.970 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 451.3062ms
+2025-04-03 13:41:35.383 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 13:41:35.415 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.947ms
+2025-04-03 13:41:38.092 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20system - null null
+2025-04-03 13:41:38.124 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 13:41:38.185 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 13:52:23.148 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 13:52:24.193 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 13:52:24.194 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 13:52:24.355 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 13:52:24.360 +05:30 [INF] Hosting environment: Development
+2025-04-03 13:52:24.360 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 13:52:25.489 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 13:52:26.107 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 626.5427ms
+2025-04-03 13:52:26.165 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 13:52:26.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 13:52:26.189 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 23.6121ms
+2025-04-03 13:52:26.306 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.2668ms
+2025-04-03 13:52:26.800 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 13:52:26.847 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.5583ms
+2025-04-03 13:52:37.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20true - null null
+2025-04-03 13:52:37.175 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 13:52:37.258 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:41:32.104 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 14:41:33.580 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 14:41:33.584 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 14:41:34.106 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 14:41:34.107 +05:30 [INF] Hosting environment: Development
+2025-04-03 14:41:34.107 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 14:41:34.453 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 14:41:34.874 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 431.6594ms
+2025-04-03 14:41:34.908 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 14:41:34.911 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 14:41:34.919 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 11.5201ms
+2025-04-03 14:41:35.027 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 115.9432ms
+2025-04-03 14:41:35.342 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 14:41:35.376 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.63ms
+2025-04-03 14:41:47.085 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/create-table?sql=CREATE%20TABLE%20Employees%20%28%20%20%20%20%20Id%20NUMBER%20GENERATED%20ALWAYS%20AS%20IDENTITY%20PRIMARY%20KEY%2C%20%20%20%20%20Name%20VARCHAR2%28100%29%2C%20%20%20%20%20Email%20VARCHAR2%28100%29%20UNIQUE%2C%20%20%20%20%20CreatedAt%20TIMESTAMP%20DEFAULT%20CURRENT_TIMESTAMP%20%29 - null 0
+2025-04-03 14:41:47.101 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 14:41:47.166 +05:30 [INF] Route matched with {action = "CreateTable", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTable(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:42:03.567 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 14:42:03.578 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API) in 16403.0843ms
+2025-04-03 14:42:03.579 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 14:42:03.581 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/create-table?sql=CREATE%20TABLE%20Employees%20%28%20%20%20%20%20Id%20NUMBER%20GENERATED%20ALWAYS%20AS%20IDENTITY%20PRIMARY%20KEY%2C%20%20%20%20%20Name%20VARCHAR2%28100%29%2C%20%20%20%20%20Email%20VARCHAR2%28100%29%20UNIQUE%2C%20%20%20%20%20CreatedAt%20TIMESTAMP%20DEFAULT%20CURRENT_TIMESTAMP%20%29 - 400 null text/plain; charset=utf-8 16496.6528ms
+2025-04-03 14:43:09.323 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 14:43:09.765 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 14:43:09.766 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 14:43:09.906 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 14:43:09.907 +05:30 [INF] Hosting environment: Development
+2025-04-03 14:43:09.907 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 14:43:10.356 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 14:43:10.665 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 315.9018ms
+2025-04-03 14:43:10.711 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 14:43:10.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 14:43:10.721 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 9.8116ms
+2025-04-03 14:43:10.762 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.5826ms
+2025-04-03 14:43:11.012 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 14:43:11.042 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.0304ms
+2025-04-03 14:43:17.340 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/create-table - null 0
+2025-04-03 14:43:17.363 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 14:43:17.416 +05:30 [INF] Route matched with {action = "CreateTable", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTable() on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:43:33.262 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 14:43:33.273 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API) in 15848.4461ms
+2025-04-03 14:43:33.274 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 14:43:33.276 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/create-table - 400 null text/plain; charset=utf-8 15935.2974ms
+2025-04-03 14:43:52.128 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/create-table - null 0
+2025-04-03 14:43:52.131 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 14:43:52.132 +05:30 [INF] Route matched with {action = "CreateTable", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTable() on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:44:07.410 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 14:44:07.411 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API) in 15278.4195ms
+2025-04-03 14:44:07.411 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 14:44:07.411 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/create-table - 400 null text/plain; charset=utf-8 15283.4002ms
+2025-04-03 14:45:40.390 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 14:45:40.899 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 14:45:40.900 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 14:45:41.047 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 14:45:41.048 +05:30 [INF] Hosting environment: Development
+2025-04-03 14:45:41.048 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 14:45:41.825 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 14:45:42.103 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 285.0442ms
+2025-04-03 14:45:42.148 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 14:45:42.148 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 14:45:42.159 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 10.2738ms
+2025-04-03 14:45:42.198 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.8813ms
+2025-04-03 14:45:42.574 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 14:45:42.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.4982ms
+2025-04-03 14:45:48.348 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/create-table - null 0
+2025-04-03 14:45:48.366 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 14:45:48.420 +05:30 [INF] Route matched with {action = "CreateTable", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTable() on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:45:50.148 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-03 14:45:50.157 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API) in 1728.6434ms
+2025-04-03 14:45:50.158 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 14:45:50.160 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/create-table - 200 null text/plain; charset=utf-8 1811.8617ms
+2025-04-03 14:48:21.964 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20VALUES%20%28%27John%20Doe1%27%2C%20%27john.doe%40example.com%27%29%2C%28%27John%20Doe%27%2C%20%27john1.doe%40example.com%27%29%2C%28%27John%20Doe2%27%2C%20%27john.doe2%40example.com%27%29%2C%28%27John%20Doe3%27%2C%20%27john.doe3%40example.com%27%29%2C%28%27John%20Doe4%27%2C%20%27john.doe4%40example.com%27%29%2C%28%27John%20Doe5%27%2C%20%27john.doe5%40example.com%27%29%3B%20 - null 0
+2025-04-03 14:48:21.967 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:48:21.985 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:52:07.124 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 14:52:08.075 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 14:52:08.077 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 14:52:08.501 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 14:52:08.502 +05:30 [INF] Hosting environment: Development
+2025-04-03 14:52:08.502 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 14:52:08.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 14:52:09.451 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 629.031ms
+2025-04-03 14:52:09.455 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 14:52:09.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 15.057ms
+2025-04-03 14:52:09.545 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 14:52:09.549 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 14:52:09.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 12.7694ms
+2025-04-03 14:52:09.675 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.1509ms
+2025-04-03 14:52:09.900 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 14:52:09.927 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.3055ms
+2025-04-03 14:52:09.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 14:52:09.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 14:52:09.963 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 2.3831ms
+2025-04-03 14:52:09.985 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.4715ms
+2025-04-03 14:52:10.844 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 14:52:10.851 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.0654ms
+2025-04-03 14:52:20.542 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe%27%2C%20%27john.doe%40example.com%27%29%3B - null 0
+2025-04-03 14:52:20.563 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:52:20.632 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:52:55.651 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.InsertData (Parse Message API) in 35010.9631ms
+2025-04-03 14:52:55.652 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:52:55.660 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00933: SQL command not properly ended
+https://docs.oracle.com/error-help/db/ora-00933/
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQueryAsync(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, OracleConnection connection, ENQ_RefAndOutParamArgCtx enq_refOutArgCtx, Boolean isFromEF, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQueryInternalAsync(Boolean bAsync, CancellationToken cancellationToken)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQueryAsyncHelper(CancellationToken cancellationToken)
+   at Parse_Message_API.Services.OracleDBService.ExecuteNonQueryAsync(String sqlQuery) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Services\OracleDBService.cs:line 84
+   at Parse_Message_API.Services.OracleDBService.InsertDataAsync(String sqlQuery) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Services\OracleDBService.cs:line 64
+   at Parse_Message_API.Controllers.DBController.InsertData(String sql) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Controllers\DBController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-03 14:52:55.695 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe%27%2C%20%27john.doe%40example.com%27%29%3B - 500 null text/plain; charset=utf-8 35152.7824ms
+2025-04-03 14:52:59.074 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe%27%2C%20%27john.doe%40example.com%27%29 - null 0
+2025-04-03 14:52:59.077 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:52:59.078 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:52:59.161 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 14:52:59.175 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.InsertData (Parse Message API) in 96.3269ms
+2025-04-03 14:52:59.176 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:52:59.176 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe%27%2C%20%27john.doe%40example.com%27%29 - 200 null application/json; charset=utf-8 102.0633ms
+2025-04-03 14:53:12.035 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe%27%2C%20%27john.doe%40example.com%27%29 - null 0
+2025-04-03 14:53:12.036 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:53:12.036 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:53:20.300 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.InsertData (Parse Message API) in 8264.3224ms
+2025-04-03 14:53:20.301 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:53:20.303 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00001: unique constraint (RMAPI.SYS_C0018482) violated
+https://docs.oracle.com/error-help/db/ora-00001/
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQueryAsync(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, OracleConnection connection, ENQ_RefAndOutParamArgCtx enq_refOutArgCtx, Boolean isFromEF, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQueryInternalAsync(Boolean bAsync, CancellationToken cancellationToken)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQueryAsyncHelper(CancellationToken cancellationToken)
+   at Parse_Message_API.Services.OracleDBService.ExecuteNonQueryAsync(String sqlQuery) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Services\OracleDBService.cs:line 84
+   at Parse_Message_API.Services.OracleDBService.InsertDataAsync(String sqlQuery) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Services\OracleDBService.cs:line 64
+   at Parse_Message_API.Controllers.DBController.InsertData(String sql) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Controllers\DBController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-03 14:53:20.310 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe%27%2C%20%27john.doe%40example.com%27%29 - 500 null text/plain; charset=utf-8 8275.0908ms
+2025-04-03 14:53:37.320 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe1%27%2C%20%27john.doe1%40example.com%27%29 - null 0
+2025-04-03 14:53:37.321 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:53:37.321 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:53:37.358 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 14:53:37.359 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.InsertData (Parse Message API) in 37.7725ms
+2025-04-03 14:53:37.359 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:53:37.359 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe1%27%2C%20%27john.doe1%40example.com%27%29 - 200 null application/json; charset=utf-8 38.9993ms
+2025-04-03 14:53:51.849 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe2%27%2C%20%27john.doe2%40example.com%27%29 - null 0
+2025-04-03 14:53:51.850 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:53:51.851 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:53:51.902 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 14:53:51.902 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.InsertData (Parse Message API) in 51.0502ms
+2025-04-03 14:53:51.902 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 14:53:51.902 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe2%27%2C%20%27john.doe2%40example.com%27%29 - 200 null application/json; charset=utf-8 52.919ms
+2025-04-03 14:54:26.869 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20employees - null null
+2025-04-03 14:54:26.869 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 14:54:26.882 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:54:27.186 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Data.DataTable'.
+2025-04-03 14:54:27.405 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 523.1048ms
+2025-04-03 14:54:27.406 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 14:54:27.408 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Type' instances is not supported. Path: $.Columns.DataType.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Type' instances is not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWriteAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableConverter`1.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, Exception innerException)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-03 14:54:27.416 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20employees - 500 null text/plain; charset=utf-8 547.9806ms
+2025-04-03 14:55:19.743 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - null null
+2025-04-03 14:55:19.743 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 14:55:19.744 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 14:55:19.943 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Data.DataTable'.
+2025-04-03 14:55:19.945 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 201.7248ms
+2025-04-03 14:55:19.946 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 14:55:19.946 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Type' instances is not supported. Path: $.Columns.DataType.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Type' instances is not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWriteAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableConverter`1.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, Exception innerException)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-03 14:55:19.948 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - 500 null text/plain; charset=utf-8 205.5341ms
+2025-04-03 14:59:58.348 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 14:59:59.190 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 14:59:59.191 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 14:59:59.593 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 14:59:59.594 +05:30 [INF] Hosting environment: Development
+2025-04-03 14:59:59.594 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 14:59:59.884 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 15:00:00.258 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 15:00:00.260 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 383.2328ms
+2025-04-03 15:00:00.271 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 15:00:00.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 15.1716ms
+2025-04-03 15:00:00.329 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.308ms
+2025-04-03 15:00:00.685 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 15:00:00.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.3726ms
+2025-04-03 15:00:07.661 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - null null
+2025-04-03 15:00:07.673 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 15:00:07.730 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:00:09.718 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 15:00:09.746 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 2011.5788ms
+2025-04-03 15:00:09.746 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 15:00:09.747 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - 200 null application/json; charset=utf-8 2086.226ms
+2025-04-03 15:00:41.376 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe5%27%2C%20%27john.doe5%40example.com%27%29 - null 0
+2025-04-03 15:00:41.384 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 15:00:41.394 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:00:41.536 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 15:00:41.540 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.InsertData (Parse Message API) in 146.4724ms
+2025-04-03 15:00:41.540 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 15:00:41.541 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe5%27%2C%20%27john.doe5%40example.com%27%29 - 200 null application/json; charset=utf-8 164.7541ms
+2025-04-03 15:00:46.602 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - null null
+2025-04-03 15:00:46.602 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 15:00:46.603 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:00:46.637 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 15:00:46.637 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 33.8028ms
+2025-04-03 15:00:46.637 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 15:00:46.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - 200 null application/json; charset=utf-8 35.559ms
+2025-04-03 15:01:26.256 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7291/api/DB/update?sql=UPDATE%20Employees%20SET%20Email%20%3D%20%27new.email%40example.com%27%20WHERE%20Id%20%3D%201%3B - null 0
+2025-04-03 15:01:26.257 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.UpdateData (Parse Message API)'
+2025-04-03 15:01:26.272 +05:30 [INF] Route matched with {action = "UpdateData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:01:44.832 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.UpdateData (Parse Message API) in 18559.2905ms
+2025-04-03 15:01:44.833 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.UpdateData (Parse Message API)'
+2025-04-03 15:01:44.843 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00933: SQL command not properly ended
+https://docs.oracle.com/error-help/db/ora-00933/
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQueryAsync(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, OracleConnection connection, ENQ_RefAndOutParamArgCtx enq_refOutArgCtx, Boolean isFromEF, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQueryInternalAsync(Boolean bAsync, CancellationToken cancellationToken)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQueryAsyncHelper(CancellationToken cancellationToken)
+   at Parse_Message_API.Services.OracleDBService.ExecuteNonQueryWithResultAsync(String sqlQuery) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Services\OracleDBService.cs:line 110
+   at Parse_Message_API.Services.OracleDBService.UpdateDataAsync(String sqlQuery) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Services\OracleDBService.cs:line 87
+   at Parse_Message_API.Controllers.DBController.UpdateData(String sql) in C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API\Controllers\DBController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-03 15:01:44.874 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7291/api/DB/update?sql=UPDATE%20Employees%20SET%20Email%20%3D%20%27new.email%40example.com%27%20WHERE%20Id%20%3D%201%3B - 500 null text/plain; charset=utf-8 18617.5642ms
+2025-04-03 15:01:54.591 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7291/api/DB/update?sql=UPDATE%20Employees%20SET%20Email%20%3D%20%27new.email%40example.com%27%20WHERE%20Id%20%3D%201 - null 0
+2025-04-03 15:01:54.591 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.UpdateData (Parse Message API)'
+2025-04-03 15:01:54.592 +05:30 [INF] Route matched with {action = "UpdateData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:01:54.669 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 15:01:54.671 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.UpdateData (Parse Message API) in 79.3967ms
+2025-04-03 15:01:54.671 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.UpdateData (Parse Message API)'
+2025-04-03 15:01:54.671 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7291/api/DB/update?sql=UPDATE%20Employees%20SET%20Email%20%3D%20%27new.email%40example.com%27%20WHERE%20Id%20%3D%201 - 200 null application/json; charset=utf-8 81.0713ms
+2025-04-03 15:02:04.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - null null
+2025-04-03 15:02:04.410 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 15:02:04.410 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:02:04.445 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 15:02:04.445 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 34.3756ms
+2025-04-03 15:02:04.445 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 15:02:04.445 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - 200 null application/json; charset=utf-8 35.5818ms
+2025-04-03 15:02:43.170 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7291/api/DB/delete?sql=DELETE%20FROM%20Employees%20WHERE%20id%20%3D%203 - null null
+2025-04-03 15:02:43.170 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.DeleteData (Parse Message API)'
+2025-04-03 15:02:43.174 +05:30 [INF] Route matched with {action = "DeleteData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:02:43.299 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 15:02:43.299 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.DeleteData (Parse Message API) in 125.12ms
+2025-04-03 15:02:43.300 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.DeleteData (Parse Message API)'
+2025-04-03 15:02:43.300 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7291/api/DB/delete?sql=DELETE%20FROM%20Employees%20WHERE%20id%20%3D%203 - 200 null application/json; charset=utf-8 130.2088ms
+2025-04-03 15:02:51.012 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - null null
+2025-04-03 15:02:51.012 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 15:02:51.012 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:02:51.056 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 15:02:51.056 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 43.8441ms
+2025-04-03 15:02:51.057 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 15:02:51.057 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=SELECT%20%2A%20FROM%20Employees - 200 null application/json; charset=utf-8 44.9903ms
+2025-04-03 15:03:00.933 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/create-table - null 0
+2025-04-03 15:03:00.933 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 15:03:00.939 +05:30 [INF] Route matched with {action = "CreateTable", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTable() on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 15:03:01.403 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 15:03:01.403 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API) in 463.9048ms
+2025-04-03 15:03:01.403 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 15:03:01.403 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/create-table - 400 null text/plain; charset=utf-8 470.4567ms
+2025-04-03 16:21:05.961 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 16:21:06.619 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 16:21:06.621 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 16:21:06.749 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 16:21:06.749 +05:30 [INF] Hosting environment: Development
+2025-04-03 16:21:06.749 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 16:21:07.588 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 16:21:07.883 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 300.507ms
+2025-04-03 16:21:07.938 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 16:21:07.938 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 16:21:07.952 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 21.1115ms
+2025-04-03 16:21:08.017 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.9844ms
+2025-04-03 16:21:08.310 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 16:21:08.342 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.9319ms
+2025-04-03 16:21:15.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/ - null null
+2025-04-03 16:21:15.734 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2025-04-03 16:21:15.734 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2025-04-03 16:21:15.734 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/ - 200 null text/plain; charset=utf-8 8.0094ms
+2025-04-03 16:22:23.522 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 95
+2025-04-03 16:22:23.525 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:22:23.573 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:22:29.021 +05:30 [INF] Executed DbCommand (218ms) [Parameters=[@__extractedUsernames_0='?' (DbType = Object)], CommandType='"Text"', CommandTimeout='30']
+SELECT a.axusersid, a.email, a.mobile, a.username
+FROM tms.axusers AS a
+WHERE lower(a.username) = ANY (@__extractedUsernames_0)
+2025-04-03 16:22:29.095 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 16:22:29.103 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 5524.7877ms
+2025-04-03 16:22:29.104 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:22:29.112 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 400 null text/plain; charset=utf-8 5589.8616ms
+2025-04-03 16:22:41.561 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 92
+2025-04-03 16:22:41.564 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:22:41.564 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:22:41.584 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__extractedUsernames_0='?' (DbType = Object)], CommandType='"Text"', CommandTimeout='30']
+SELECT a.axusersid, a.email, a.mobile, a.username
+FROM tms.axusers AS a
+WHERE lower(a.username) = ANY (@__extractedUsernames_0)
+2025-04-03 16:22:41.657 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 16:22:41.659 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 94.883ms
+2025-04-03 16:22:41.659 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:22:41.661 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 98.7838ms
+2025-04-03 16:24:54.123 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 16:24:54.476 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 16:24:54.477 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 16:24:54.656 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 16:24:54.657 +05:30 [INF] Hosting environment: Development
+2025-04-03 16:24:54.657 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 16:24:55.567 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 16:24:55.825 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 265.3149ms
+2025-04-03 16:24:55.989 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 16:24:55.999 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 16:24:56.007 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 20.7968ms
+2025-04-03 16:24:56.281 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 282.0394ms
+2025-04-03 16:24:56.556 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 16:24:56.579 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.1298ms
+2025-04-03 16:26:30.474 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 92
+2025-04-03 16:26:30.490 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:26:30.542 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:26:33.423 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 16:26:33.439 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 2892.5552ms
+2025-04-03 16:26:33.439 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:26:33.443 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 2968.9454ms
+2025-04-03 16:26:40.688 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 95
+2025-04-03 16:26:40.691 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:26:40.691 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:26:40.880 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 16:26:40.880 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 188.5811ms
+2025-04-03 16:26:40.880 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:26:40.880 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 192.4203ms
+2025-04-03 16:30:25.516 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 16:30:25.995 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 16:30:25.997 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 16:30:26.064 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 16:30:26.065 +05:30 [INF] Hosting environment: Development
+2025-04-03 16:30:26.065 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 16:30:26.677 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 16:30:26.932 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 264.6359ms
+2025-04-03 16:30:26.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 16:30:26.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 16:30:27.026 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 40.2818ms
+2025-04-03 16:30:27.118 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.9935ms
+2025-04-03 16:30:27.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 16:30:27.465 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.1787ms
+2025-04-03 16:30:32.954 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 95
+2025-04-03 16:30:32.970 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:30:33.017 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:30:35.758 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 16:30:35.769 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 2747.7936ms
+2025-04-03 16:30:35.769 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:30:35.773 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 2818.8965ms
+2025-04-03 16:33:31.693 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 16:33:32.187 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 16:33:32.188 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 16:33:32.275 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 16:33:32.276 +05:30 [INF] Hosting environment: Development
+2025-04-03 16:33:32.276 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 16:33:33.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 16:33:33.462 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 382.7852ms
+2025-04-03 16:33:33.501 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 16:33:33.514 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 12.7388ms
+2025-04-03 16:33:33.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 16:33:33.599 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.5529ms
+2025-04-03 16:33:33.901 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 16:33:33.934 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.584ms
+2025-04-03 16:33:39.895 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 95
+2025-04-03 16:33:39.931 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:33:39.971 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:33:42.603 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 16:33:42.614 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 2638.7503ms
+2025-04-03 16:33:42.614 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:33:42.617 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 2722.1147ms
+2025-04-03 16:34:06.063 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 92
+2025-04-03 16:34:06.074 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:34:06.074 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:34:08.597 +05:30 [INF] Executed DbCommand (163ms) [Parameters=[@__extractedUsernames_0='?' (DbType = Object)], CommandType='"Text"', CommandTimeout='30']
+SELECT a.axusersid, a.email, a.mobile, a.username
+FROM tms.axusers AS a
+WHERE lower(a.username) = ANY (@__extractedUsernames_0)
+2025-04-03 16:34:08.688 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 16:34:08.689 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 2614.4699ms
+2025-04-03 16:34:08.689 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:34:08.703 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 2640.199ms
+2025-04-03 16:34:23.418 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 94
+2025-04-03 16:34:23.419 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:34:23.420 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:34:23.513 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__extractedUsernames_0='?' (DbType = Object)], CommandType='"Text"', CommandTimeout='30']
+SELECT a.axusersid, a.email, a.mobile, a.username
+FROM tms.axusers AS a
+WHERE lower(a.username) = ANY (@__extractedUsernames_0)
+2025-04-03 16:34:23.515 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 16:34:23.515 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 95.4159ms
+2025-04-03 16:34:23.515 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:34:23.516 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 98.2607ms
+2025-04-03 16:34:50.962 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 94
+2025-04-03 16:34:50.962 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:34:50.962 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:34:51.034 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__extractedUsernames_0='?' (DbType = Object)], CommandType='"Text"', CommandTimeout='30']
+SELECT a.axusersid, a.email, a.mobile, a.username
+FROM tms.axusers AS a
+WHERE lower(a.username) = ANY (@__extractedUsernames_0)
+2025-04-03 16:34:51.038 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 16:34:51.039 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 76.7272ms
+2025-04-03 16:34:51.039 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 16:34:51.040 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 78.0798ms
+2025-04-03 16:35:03.382 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/SendMessage/sendDely - application/json 532
+2025-04-03 16:35:03.382 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.SendMessage (Parse Message API)'
+2025-04-03 16:35:03.388 +05:30 [INF] Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(Parse_Message_API.Model.Message) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 16:35:03.432 +05:30 [INF] Message scheduled: {"Id":"8ed1431c-ab9c-48f8-a7be-eae0b18bd284","Title":"meeting","Date":"03-04-2025","Time":"16:36:00","App":"gmail","Repeat":true,"Trigger_At":"2025-04-03T11:06:00Z","Created_At":"2025-04-03T11:04:51.0374946Z","Send_to":[{"axusersid":1059440000000,"username":"Tamil","email":"tamil@agile-labs.com","mobile":null},{"axusersid":1059330000000,"username":"Sriram","email":"sriram.s@agile-labs.com","mobile":null}]} (Trigger_At: 03-04-2025 11:06:00, Delay: 56575 ms)
+2025-04-03 16:35:03.470 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-03 16:35:03.470 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.SendMessage (Parse Message API) in 82.7504ms
+2025-04-03 16:35:03.471 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.SendMessage (Parse Message API)'
+2025-04-03 16:35:03.471 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/SendMessage/sendDely - 200 null text/plain; charset=utf-8 89.1304ms
+2025-04-03 16:35:51.367 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/create-table - null 0
+2025-04-03 16:35:51.370 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 16:35:51.386 +05:30 [INF] Route matched with {action = "CreateTable", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTable() on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 16:35:53.380 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 16:35:53.380 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API) in 1994.164ms
+2025-04-03 16:35:53.380 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 16:35:53.380 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/create-table - 400 null text/plain; charset=utf-8 2013.8417ms
+2025-04-03 16:36:00.059 +05:30 [INF] [Received] Message: {"Id":"8ed1431c-ab9c-48f8-a7be-eae0b18bd284","Title":"meeting","Date":"03-04-2025","Time":"16:36:00","App":"gmail","Repeat":true,"Trigger_At":"2025-04-03T11:06:00Z","Created_At":"2025-04-03T11:04:51.0374946Z","Send_to":[{"axusersid":1059440000000,"username":"Tamil","email":"tamil@agile-labs.com","mobile":null},{"axusersid":1059330000000,"username":"Sriram","email":"sriram.s@agile-labs.com","mobile":null}]}
+2025-04-03 16:36:00.061 +05:30 [INF] Message processed successfully: {"Id":"8ed1431c-ab9c-48f8-a7be-eae0b18bd284","Title":"meeting","Date":"03-04-2025","Time":"16:36:00","App":"gmail","Repeat":true,"Trigger_At":"2025-04-03T11:06:00Z","Created_At":"2025-04-03T11:04:51.0374946Z","Send_to":[{"axusersid":1059440000000,"username":"Tamil","email":"tamil@agile-labs.com","mobile":null},{"axusersid":1059330000000,"username":"Sriram","email":"sriram.s@agile-labs.com","mobile":null}]}
+2025-04-03 16:36:32.021 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - null null
+2025-04-03 16:36:32.023 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 16:36:32.032 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 16:36:32.250 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 16:36:32.264 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 232.5524ms
+2025-04-03 16:36:32.264 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 16:36:32.265 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - 200 null application/json; charset=utf-8 243.6716ms
+2025-04-03 16:37:04.846 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe6%27%2C%20%27john.doe6%40example.com%27%29 - null 0
+2025-04-03 16:37:04.847 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 16:37:04.861 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 16:37:04.985 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 16:37:04.988 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.InsertData (Parse Message API) in 126.8569ms
+2025-04-03 16:37:04.988 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 16:37:04.988 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/insert?sql=INSERT%20INTO%20Employees%20%28Name%2C%20Email%29%20%20VALUES%20%28%27John%20Doe6%27%2C%20%27john.doe6%40example.com%27%29 - 200 null application/json; charset=utf-8 141.9889ms
+2025-04-03 16:37:13.184 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - null null
+2025-04-03 16:37:13.184 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 16:37:13.185 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 16:37:13.273 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 16:37:13.273 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 88.0715ms
+2025-04-03 16:37:13.273 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 16:37:13.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - 200 null application/json; charset=utf-8 88.861ms
+2025-04-03 17:11:09.531 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:11:10.568 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:11:10.578 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:11:10.893 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:11:10.893 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:11:10.894 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:11:11.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:11:12.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 675.9143ms
+2025-04-03 17:11:12.253 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:11:12.254 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:11:12.289 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 36.1014ms
+2025-04-03 17:11:12.477 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 223.6503ms
+2025-04-03 17:11:12.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:11:12.821 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.6184ms
+2025-04-03 17:11:44.473 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 94
+2025-04-03 17:11:44.501 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:11:44.542 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:11:49.853 +05:30 [INF] Executed DbCommand (183ms) [Parameters=[@__extractedUsernames_0='?' (DbType = Object)], CommandType='"Text"', CommandTimeout='30']
+SELECT a.axusersid, a.email, a.mobile, a.username
+FROM tms.axusers AS a
+WHERE lower(a.username) = ANY (@__extractedUsernames_0)
+2025-04-03 17:11:50.009 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:11:50.024 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 5473.6055ms
+2025-04-03 17:11:50.024 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:11:50.033 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 5560.4467ms
+2025-04-03 17:12:04.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - null null
+2025-04-03 17:12:04.196 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:12:04.207 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:12:06.101 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:12:06.119 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 1912.031ms
+2025-04-03 17:12:06.119 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:12:06.120 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - 200 null application/json; charset=utf-8 1926.1748ms
+2025-04-03 17:12:38.848 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:12:39.515 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:12:39.517 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:12:39.667 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:12:39.668 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:12:39.668 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:12:40.017 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:12:40.462 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 458.8489ms
+2025-04-03 17:12:40.493 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:12:40.495 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:12:40.503 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 10.2138ms
+2025-04-03 17:12:40.568 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.1806ms
+2025-04-03 17:12:40.889 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:12:40.935 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.6264ms
+2025-04-03 17:12:44.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20axusers - null null
+2025-04-03 17:12:44.563 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:12:44.609 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:12:45.435 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:12:45.466 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 834.7879ms
+2025-04-03 17:12:45.467 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:12:45.476 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20axusers - 200 null application/json; charset=utf-8 928.6145ms
+2025-04-03 17:13:21.522 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20current_user - null null
+2025-04-03 17:13:21.526 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:13:21.527 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:13:21.608 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:13:21.614 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 86.8398ms
+2025-04-03 17:13:21.614 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:13:21.615 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20current_user - 200 null application/json; charset=utf-8 92.6631ms
+2025-04-03 17:13:54.266 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20session_user - null null
+2025-04-03 17:13:54.267 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:13:54.267 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:13:54.275 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:13:54.275 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 8.1673ms
+2025-04-03 17:13:54.275 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:13:54.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20session_user - 200 null application/json; charset=utf-8 9.194ms
+2025-04-03 17:14:03.924 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20user - null null
+2025-04-03 17:14:03.927 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:14:03.928 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:14:03.929 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:14:03.929 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 1.3739ms
+2025-04-03 17:14:03.929 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:14:03.929 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20user - 200 null application/json; charset=utf-8 42.6264ms
+2025-04-03 17:17:04.200 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:17:04.732 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:17:04.734 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:17:04.934 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:17:04.935 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:17:04.935 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:17:05.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:17:05.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 297.4796ms
+2025-04-03 17:17:05.716 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:17:05.722 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:17:05.728 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 12.0801ms
+2025-04-03 17:17:05.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.5666ms
+2025-04-03 17:17:06.095 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:17:06.143 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.7192ms
+2025-04-03 17:17:08.562 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:17:08.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.2098ms
+2025-04-03 17:17:08.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:17:08.886 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9657ms
+2025-04-03 17:17:09.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:17:09.292 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 0.8876ms
+2025-04-03 17:17:17.888 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/create-table - null 0
+2025-04-03 17:17:17.895 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/create-table - 404 0 null 7.0641ms
+2025-04-03 17:17:17.899 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7291/api/DB/create-table, Response status code: 404
+2025-04-03 17:18:07.609 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:18:07.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 11.5607ms
+2025-04-03 17:18:07.662 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:18:07.662 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:18:07.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.0431ms
+2025-04-03 17:18:07.686 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.1378ms
+2025-04-03 17:18:08.088 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:18:08.108 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.9258ms
+2025-04-03 17:19:12.968 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:19:13.358 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:19:13.359 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:19:13.427 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:19:13.428 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:19:13.428 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:19:14.025 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:19:14.268 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 251.8912ms
+2025-04-03 17:19:14.314 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:19:14.326 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:19:14.340 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 25.3499ms
+2025-04-03 17:19:14.380 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.1929ms
+2025-04-03 17:19:14.759 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:19:14.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.6932ms
+2025-04-03 17:21:22.520 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/create-table - null 0
+2025-04-03 17:21:22.540 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 17:21:22.574 +05:30 [INF] Route matched with {action = "CreateTable", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTable() on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:21:25.179 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 17:21:25.184 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API) in 2606.4436ms
+2025-04-03 17:21:25.185 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.CreateTable (Parse Message API)'
+2025-04-03 17:21:25.186 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/create-table - 400 null text/plain; charset=utf-8 2665.3751ms
+2025-04-03 17:22:37.235 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20employees - null null
+2025-04-03 17:22:37.237 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:22:37.249 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:22:37.494 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:22:37.500 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 250.7196ms
+2025-04-03 17:22:37.500 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:22:37.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20employees - 200 null application/json; charset=utf-8 265.0857ms
+2025-04-03 17:22:44.569 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - null null
+2025-04-03 17:22:44.570 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:22:44.570 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:22:44.606 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:22:44.606 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 36.1552ms
+2025-04-03 17:22:44.606 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:22:44.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - 200 null application/json; charset=utf-8 37.4247ms
+2025-04-03 17:23:17.092 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:23:17.200 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 107.8106ms
+2025-04-03 17:23:17.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:23:17.213 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:23:17.213 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 0.848ms
+2025-04-03 17:23:17.248 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.6886ms
+2025-04-03 17:23:17.375 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:23:17.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.1782ms
+2025-04-03 17:23:43.065 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/DB/insert - application/json 84
+2025-04-03 17:23:43.066 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 17:23:43.073 +05:30 [INF] Route matched with {action = "InsertData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:23:43.241 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:23:43.256 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.InsertData (Parse Message API) in 182.179ms
+2025-04-03 17:23:43.256 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.InsertData (Parse Message API)'
+2025-04-03 17:23:43.256 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/DB/insert - 200 null application/json; charset=utf-8 191.4836ms
+2025-04-03 17:23:56.438 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - null null
+2025-04-03 17:23:56.438 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:23:56.438 +05:30 [INF] Route matched with {action = "FetchData", controller = "DB"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FetchData(System.String) on controller Parse_Message_API.Controllers.DBController (Parse Message API).
+2025-04-03 17:23:56.540 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 17:23:56.557 +05:30 [INF] Executed action Parse_Message_API.Controllers.DBController.FetchData (Parse Message API) in 118.583ms
+2025-04-03 17:23:56.557 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.DBController.FetchData (Parse Message API)'
+2025-04-03 17:23:56.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/api/DB/fetch?sql=select%20%2A%20from%20Employees - 200 null application/json; charset=utf-8 119.7697ms
+2025-04-03 17:35:45.456 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:35:45.870 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:35:45.871 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:35:45.942 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:35:45.943 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:35:45.943 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:35:46.526 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:35:46.936 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 418.0828ms
+2025-04-03 17:35:46.970 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:35:47.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:35:47.016 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 46.1587ms
+2025-04-03 17:35:47.064 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.7019ms
+2025-04-03 17:35:47.586 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:35:47.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.3697ms
+2025-04-03 17:37:01.052 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 57
+2025-04-03 17:37:01.074 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:37:01.107 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:37:04.129 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:37:04.137 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 3025.0396ms
+2025-04-03 17:37:04.137 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:37:04.140 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 3087.5169ms
+2025-04-03 17:37:29.375 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 87
+2025-04-03 17:37:29.378 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:37:29.378 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:37:31.010 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 17:37:31.010 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 1631.6592ms
+2025-04-03 17:37:31.010 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:37:31.011 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 400 null text/plain; charset=utf-8 1635.7338ms
+2025-04-03 17:41:51.041 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:41:51.582 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:41:51.583 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:41:51.718 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:41:51.719 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:41:51.719 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:41:52.398 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:41:52.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 251.0287ms
+2025-04-03 17:41:52.683 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:41:52.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:41:52.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 17.0785ms
+2025-04-03 17:41:52.777 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.3198ms
+2025-04-03 17:41:53.071 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:41:53.105 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.2731ms
+2025-04-03 17:42:17.986 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:42:18.503 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:42:18.505 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:42:18.652 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:42:18.653 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:42:18.653 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:42:19.278 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:42:19.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 320.4198ms
+2025-04-03 17:42:19.636 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:42:19.637 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:42:19.655 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 18.9991ms
+2025-04-03 17:42:19.704 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.9098ms
+2025-04-03 17:42:20.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:42:20.055 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.8956ms
+2025-04-03 17:42:26.739 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 87
+2025-04-03 17:42:26.756 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:42:26.814 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:42:30.531 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:42:30.543 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 3722.5184ms
+2025-04-03 17:42:30.543 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:42:30.547 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 3808.3212ms
+2025-04-03 17:48:28.409 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:48:29.111 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:48:29.112 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:48:29.218 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:48:29.219 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:48:29.219 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:48:30.402 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:48:31.266 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 872.6554ms
+2025-04-03 17:48:31.357 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:48:31.368 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:48:31.407 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 50.1274ms
+2025-04-03 17:48:31.564 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 196.3748ms
+2025-04-03 17:48:31.886 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:48:31.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.5192ms
+2025-04-03 17:48:36.641 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 87
+2025-04-03 17:48:36.656 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:48:36.698 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:48:39.706 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:48:39.716 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 3012.5646ms
+2025-04-03 17:48:39.717 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:48:39.719 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 3078.1448ms
+2025-04-03 17:48:59.729 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 80
+2025-04-03 17:48:59.731 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:48:59.732 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:49:00.843 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:49:00.844 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 1111.3696ms
+2025-04-03 17:49:00.844 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:49:00.844 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 1115.5496ms
+2025-04-03 17:49:13.136 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 87
+2025-04-03 17:49:13.136 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:49:13.136 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:49:13.142 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:49:13.143 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 6.003ms
+2025-04-03 17:49:13.143 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:49:13.143 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 7.1159ms
+2025-04-03 17:49:33.547 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 79
+2025-04-03 17:49:33.547 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:49:33.547 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:49:33.562 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:49:33.563 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 15.1837ms
+2025-04-03 17:49:33.563 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:49:33.563 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 16.1799ms
+2025-04-03 17:51:23.432 +05:30 [INF] RabbitMQ Consumer started. Waiting for messages...
+2025-04-03 17:51:24.152 +05:30 [INF] Now listening on: https://localhost:7291
+2025-04-03 17:51:24.154 +05:30 [INF] Now listening on: http://localhost:5292
+2025-04-03 17:51:24.336 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 17:51:24.336 +05:30 [INF] Hosting environment: Development
+2025-04-03 17:51:24.337 +05:30 [INF] Content root path: C:\Users\Sriram.s\Documents\GitHub\Parse-Message\Parse Message API
+2025-04-03 17:51:25.070 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/index.html - null null
+2025-04-03 17:51:25.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/index.html - 200 null text/html;charset=utf-8 675.3013ms
+2025-04-03 17:51:25.785 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 17:51:25.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/_vs/browserLink - null null
+2025-04-03 17:51:25.797 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 12.2539ms
+2025-04-03 17:51:25.974 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.6901ms
+2025-04-03 17:51:26.253 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - null null
+2025-04-03 17:51:26.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7291/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.9436ms
+2025-04-03 17:51:28.456 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 79
+2025-04-03 17:51:28.464 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:51:28.499 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:51:32.611 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:51:32.637 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 4129.3031ms
+2025-04-03 17:51:32.639 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:51:32.648 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 4191.2385ms
+2025-04-03 17:51:40.064 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 87
+2025-04-03 17:51:40.066 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:51:40.067 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:51:40.086 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:51:40.086 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 19.0044ms
+2025-04-03 17:51:40.086 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:51:40.086 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 22.2837ms
+2025-04-03 17:52:08.747 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 87
+2025-04-03 17:52:08.747 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:52:08.748 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:52:08.768 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:52:08.768 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 20.4763ms
+2025-04-03 17:52:08.768 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:52:08.768 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 21.6996ms
+2025-04-03 17:52:20.670 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 86
+2025-04-03 17:52:20.693 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:52:20.694 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:52:22.614 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-03 17:52:22.614 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 1919.9942ms
+2025-04-03 17:52:22.614 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:52:22.614 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 400 null text/plain; charset=utf-8 1943.8744ms
+2025-04-03 17:52:36.994 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 87
+2025-04-03 17:52:36.999 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:52:36.999 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:52:37.055 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:52:37.055 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 56.0549ms
+2025-04-03 17:52:37.056 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:52:37.056 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 61.8856ms
+2025-04-03 17:52:50.594 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 94
+2025-04-03 17:52:50.594 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:52:50.594 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:52:50.599 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:52:50.599 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 4.3982ms
+2025-04-03 17:52:50.599 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:52:50.599 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 5.4727ms
+2025-04-03 17:53:05.242 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - application/json 106
+2025-04-03 17:53:05.243 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:53:05.243 +05:30 [INF] Route matched with {action = "ParseMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ParseMessage(MessageRequest) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:53:05.265 +05:30 [INF] Executing OkObjectResult, writing value of type 'Parse_Message_API.Model.Message'.
+2025-04-03 17:53:05.265 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API) in 22.0635ms
+2025-04-03 17:53:05.265 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.ParseMessage (Parse Message API)'
+2025-04-03 17:53:05.265 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/ParseMessage - 200 null application/json; charset=utf-8 23.1356ms
+2025-04-03 17:53:26.857 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7291/api/Message/SendMessage/sendDely - application/json 794
+2025-04-03 17:53:26.857 +05:30 [INF] Executing endpoint 'Parse_Message_API.Controllers.MessageController.SendMessage (Parse Message API)'
+2025-04-03 17:53:26.863 +05:30 [INF] Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(Parse_Message_API.Model.Message) on controller Parse_Message_API.Controllers.MessageController (Parse Message API).
+2025-04-03 17:53:26.904 +05:30 [INF] Message scheduled: {"Id":"1756d26e-5cc4-4e70-a90c-4906f288d4ec","Title":"meeting","Date":"04-04-2025","Time":"23:44:00","App":"sms","Repeat":true,"Trigger_At":"2025-04-04T18:14:00Z","Created_At":"2025-04-03T12:23:05.2635112Z","Send_to":[{"axusersid":1,"username":"admin","email":"sriram.s@agile-labs.com","mobile":null},{"axusersid":1059440000000,"username":"Tamil","email":"tamil@agile-labs.com","mobile":null},{"axusersid":1059330000000,"username":"Sriram","email":"sriram.s@agile-labs.com","mobile":null},{"axusersid":1060110000000,"username":"Manager","email":"sriram.s@agile-labs.com","mobile":null}]} (Trigger_At: 04-04-2025 18:14:00, Delay: 107433103 ms)
+2025-04-03 17:53:26.918 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-03 17:53:26.918 +05:30 [INF] Executed action Parse_Message_API.Controllers.MessageController.SendMessage (Parse Message API) in 54.5986ms
+2025-04-03 17:53:26.918 +05:30 [INF] Executed endpoint 'Parse_Message_API.Controllers.MessageController.SendMessage (Parse Message API)'
+2025-04-03 17:53:26.918 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7291/api/Message/SendMessage/sendDely - 200 null text/plain; charset=utf-8 61.6207ms

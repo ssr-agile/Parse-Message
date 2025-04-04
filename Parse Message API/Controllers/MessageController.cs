@@ -6,6 +6,7 @@ using Parse_Message_API.Services;
 using Parse_Message_API.Model;
 using Parse_Message_API.Data;
 using System.Text.Json;
+using System.Data;
 
 namespace Parse_Message_API.Controllers
 {
@@ -17,14 +18,16 @@ namespace Parse_Message_API.Controllers
         private readonly ILogger<MessageController> _logger;
         private readonly MessageProducer _messageProducer;
         private readonly ApiContext _context;
+        private readonly DBManager _dbService;
 
         // CONSTRUCTOR
-        public MessageController(ApiContext context, ILogger<MessageController> logger, RedisCacheServices cacheService, MessageProducer messageProducer)
+        public MessageController(DBManager dbService,ApiContext context, ILogger<MessageController> logger, RedisCacheServices cacheService, MessageProducer messageProducer)
         {
             _context = context;
             _cacheService = cacheService;
             _logger = logger;
             _messageProducer = messageProducer;
+            _dbService = dbService;
         }
 
         // MODEL
@@ -68,7 +71,7 @@ namespace Parse_Message_API.Controllers
                     { "title", @"`([^`]+)`" },
                     { "repeat", @"\b(repeat)\b" },
                     { "app", @"\b(Teams|Gmail|Email|WhatsApp|SMS|mail)\b" },
-                    { "users", @"(to|remind)\s+([a-zA-Z]+(?:,\s*[a-zA-Z]+)*)" }
+                    { "users", @"(send\s+to|to|remind|for|notify|message|alert|tell|inform|send(?:\s+a\s+message)?)\s+([a-zA-Z]+(?:\s*,\s*[a-zA-Z]+)*(\s+and\s+[a-zA-Z]+)?)\b" }
                 };
 
                 // Extract matches using regex
@@ -82,11 +85,11 @@ namespace Parse_Message_API.Controllers
                 {
                     return BadRequest("Missing required field: Time.");
                 }
+                string[] SplitNames = Regex.Split(matches["users"].Groups[2].Value, @"\s*,\s*|\s+and\s+");
 
                 // Extract users if available
                 var extractedUsernames = matches["users"].Success
-                    ? matches["users"].Groups[2].Value
-                        .Split(',')
+                    ? SplitNames
                         .Select(name => name.Trim().ToLower()) // Normalize to lowercase
                         .Where(n => !string.IsNullOrEmpty(n))
                         .ToArray()
@@ -97,26 +100,54 @@ namespace Parse_Message_API.Controllers
 
                 if (extractedUsernames.Length > 0)
                 {
-                    // Fetch users in a case-insensitive manner
-                    foundUsers = await _context.AxUsers
-                        .AsNoTracking()
-                        .Where(u => extractedUsernames.Contains(u.username.ToLower()))
-                        .ToListAsync();
+                    // Fetch data from DB (returns DataTable)
+                    var dataTable = await _dbService.FetchDataAsync("SELECT * FROM tms.axusers");
+
+                    // Convert DataTable to List<Dictionary<string, object>>
+                    var userData = ConvertDataTableToList(dataTable);
+
+                    // Convert data to List<AxUsers>
+                    foundUsers = userData
+                        .Select(row => new AxUsers
+                        {
+                            axusersid = row.ContainsKey("axusersid") && row["axusersid"] != null
+                                ? Convert.ToInt64(row["axusersid"])
+                                : 0,
+
+                            username = row.ContainsKey("username") && row["username"] != null
+                                ? row["username"].ToString()
+                                : "",
+
+                            email = row.ContainsKey("email") && row["email"] != null
+                                ? row["email"].ToString()
+                                : null,
+
+                            mobile = row.ContainsKey("mobile") && row["mobile"] != null
+                                ? row["mobile"].ToString()
+                                : null
+                        })
+                        .ToList();
+
+                    // Convert usernames to lowercase for case-insensitive comparison
+                    HashSet<string> extractedSet = extractedUsernames.Select(u => u.ToLower()).ToHashSet();
+
+                    // Find users that match the extracted usernames (case-insensitive)
+                    foundUsers = foundUsers.Where(u => extractedSet.Contains(u.username.ToLower())).ToList();
 
                     // Find usernames that were not found in the database
-                    notFoundUsers = extractedUsernames.Except(foundUsers.Select(u => u.username.ToLower())).ToList();
+                    notFoundUsers = extractedSet.Except(foundUsers.Select(u => u.username.ToLower())).ToList();
                 }
 
-
+                // Return JSON response
                 if (notFoundUsers.Count > 0)
                 {
-                    return BadRequest($"Users not found: {string.Join(", ", notFoundUsers)}");
+                    return BadRequest(JsonSerializer.Serialize(new { message = "Users not found", users = notFoundUsers }));
                 }
 
                 var msg = new Message
                 {
                     Id = Guid.NewGuid(),
-                    Title = matches["title"].Groups[1].Value, // Extract title text
+                    Title = matches["title"].Groups[1].Value,
                     Repeat = matches["repeat"].Success,
                     App = matches["app"].Success ? matches["app"].Value : "All",
                     Time = ConvertToTime24(matches["time"].Value),
@@ -129,6 +160,25 @@ namespace Parse_Message_API.Controllers
                     Created_At = DateTime.UtcNow,
                     Trigger_At = GetTriggerTime(ConvertToDate(matches["dateText"].Value), matches["time"].Value)
                 };
+
+                //// ✅ Return JSON
+                //return Ok(JsonSerializer.Serialize(msg));
+
+                // ✅ Utility Function: Convert DataTable to List<Dictionary<string, object>>
+                List<Dictionary<string, object>> ConvertDataTableToList(DataTable dt)
+                {
+                    var list = new List<Dictionary<string, object>>();
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        var dict = new Dictionary<string, object>();
+                        foreach (DataColumn col in dt.Columns)
+                        {
+                            dict[col.ColumnName] = row[col] != DBNull.Value ? row[col] : null;
+                        }
+                        list.Add(dict);
+                    }
+                    return list;
+                }
 
                 // Store in cache for 10 minutes
                 await _cacheService.SetCacheAsync(cacheKey, JsonSerializer.Serialize(msg), TimeSpan.FromMinutes(10));
@@ -258,9 +308,7 @@ namespace Parse_Message_API.Controllers
                 }
                 time += ":00";
 
-                Console.WriteLine(time);
             }
-            Console.WriteLine(time+"hhhh");
 
             // Try parsing in multiple common formats
             return DateTime.TryParseExact(time,

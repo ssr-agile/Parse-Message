@@ -19,12 +19,16 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
     ConnectionMultiplexer.Connect(builder.Configuration["Redis:ConnectionString"]));
 
 builder.Services.AddDbContext<ApiContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")).LogTo(Console.WriteLine, LogLevel.Information));
+    options.UseNpgsql(builder.Configuration.GetSection("Databases:postgres:ConnectionString").Value)
+           .LogTo(Console.WriteLine, LogLevel.Information));
+//builder.Services.AddDbContext<ApiContext>(options =>
+//    options.UseNpgsql(builder.Configuration.GetConnectionString("postgres")).LogTo(Console.WriteLine, LogLevel.Information));
 
 
 builder.Services.AddSingleton<RedisCacheServices>();
 builder.Services.AddSingleton<MessageProducer>();
 builder.Services.AddHostedService<MessageConsumer>();
+builder.Services.AddSingleton<DBManager>();
 
 builder.Logging.AddConsole();
 
